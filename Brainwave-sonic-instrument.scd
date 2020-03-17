@@ -3,9 +3,13 @@ s.boot;
 //read csv file
 //no header, no strings just numeric data
 (
-~csv=SemiColonFileReader.readInterpret("/Users/nicodaleman/Desktop/Sound Studies UdK/V. Project Phase II/TU Classes/HPI Brainwaves sonification/NDASCprototype1/test_brainwave_data2.csv", true, true;).postcs; //true true skips empty lines
-~data=~csv.flop;
+~csv=SemiColonFileReader.readInterpret(thisProcess.nowExecutingPath.dirname +/+"test_brainwave_data.csv", true, true;).postcs;
 )
+// csv file should be in the same directory as the scd file.
+//Alternatively, drag and drop the cvs file. SC will identify the path.
+
+~data=~csv.flop;
+
 //~data.plot;
 ~data[1,2,3,4,5,6,7,8].plot(numChannels: 8);
 
@@ -20,8 +24,6 @@ s.boot;
 ~lobeta2 = ~data[6];
 ~beta1 = ~data[7];
 ~beta2 = ~data[8];
-
-//~timelag = 10
 
 )
 
