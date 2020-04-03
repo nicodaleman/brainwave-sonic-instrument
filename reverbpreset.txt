@@ -1,0 +1,563 @@
+/direct/filter/params 12.1 4 0 0 250 4000
+/direct/filter/bypass 0
+/direct/filter/mute 0
+/direct/filter/title/text "direct"
+/direct/filter/title/visible 1
+/direct/filter/editable 1
+/direct/filter/curve/number 1
+/direct/filter/samplerate 44100
+/direct/filter/curve/1/visible 1
+/direct/filter/curve/1/foreground/color 0 0 0 0.498039
+/direct/filter/curve/1/color 0 0 0 0.74902
+/direct/filter/curve/1/fill 1
+/direct/filter/curve/1/thickness 1
+/direct/filter/mode "magnitude"
+/direct/filter/font/size 10
+/direct/filter/grid/visible 1
+/direct/filter/grid/color 0.501961 0.501961 0.501961 1
+/direct/filter/phase/unwrap 0
+/direct/filter/phase/min -180
+/direct/filter/phase/max 180
+/direct/filter/freq/min 20
+/direct/filter/freq/max 22050
+/direct/filter/freq/logscale 1
+/direct/filter/magnitude/min -30
+/direct/filter/magnitude/max 30
+/direct/filter/magnitude/logscale 1
+/direct/filter/xtick/visible 1
+/direct/filter/xtick/color 0.501961 0.501961 0.501961 0.65098
+/direct/filter/xtick/position "topandmiddle"
+/direct/filter/ytick/visible 1
+/direct/filter/ytick/color 0 0 0 1
+/direct/filter/cursor/visible 0
+/direct/filter/cursor/color 1 0 0 1
+/direct/filter/background/color 0.858824 0.858824 0.858824 1
+/direct/filter/frame/visible 0
+/direct/filter/frame/color 0 0 0 1
+/direct/filter/frame/rounded 5
+/direct/filter/frame/thickness 2
+/direct/filter/marker/number 0
+/room/filter/params -9.1 2.4 0 -10.8 250 4000
+/room/filter/bypass 0
+/room/filter/mute 0
+/room/filter/title/text "room"
+/room/filter/title/visible 1
+/room/filter/editable 1
+/room/filter/curve/number 1
+/room/filter/samplerate 44100
+/room/filter/curve/1/visible 1
+/room/filter/curve/1/foreground/color 0.501961 0 0 0.498039
+/room/filter/curve/1/color 0 0 0 0.74902
+/room/filter/curve/1/fill 1
+/room/filter/curve/1/thickness 1
+/room/filter/mode "magnitude"
+/room/filter/font/size 10
+/room/filter/grid/visible 1
+/room/filter/grid/color 0.501961 0.501961 0.501961 1
+/room/filter/phase/unwrap 0
+/room/filter/phase/min -180
+/room/filter/phase/max 180
+/room/filter/freq/min 20
+/room/filter/freq/max 22050
+/room/filter/freq/logscale 1
+/room/filter/magnitude/min -30
+/room/filter/magnitude/max 30
+/room/filter/magnitude/logscale 1
+/room/filter/xtick/visible 1
+/room/filter/xtick/color 0.501961 0.501961 0.501961 0.65098
+/room/filter/xtick/position "topandmiddle"
+/room/filter/ytick/visible 1
+/room/filter/ytick/color 0 0 0 1
+/room/filter/cursor/visible 0
+/room/filter/cursor/color 1 0 0 1
+/room/filter/background/color 0.858824 0.858824 0.858824 1
+/room/filter/frame/visible 0
+/room/filter/frame/color 0 0 0 1
+/room/filter/frame/rounded 5
+/room/filter/frame/thickness 2
+/room/filter/marker/number 0
+/early/filter/params 2.1 1.9 0 -20.2 250 4000
+/early/filter/bypass 0
+/early/filter/mute 0
+/early/filter/title/text "early"
+/early/filter/title/visible 1
+/early/filter/editable 1
+/early/filter/curve/number 1
+/early/filter/samplerate 44100
+/early/filter/curve/1/visible 1
+/early/filter/curve/1/foreground/color 0 0.501961 0 0.498039
+/early/filter/curve/1/color 0 0 0 0.74902
+/early/filter/curve/1/fill 1
+/early/filter/curve/1/thickness 1
+/early/filter/mode "magnitude"
+/early/filter/font/size 10
+/early/filter/grid/visible 1
+/early/filter/grid/color 0.501961 0.501961 0.501961 1
+/early/filter/phase/unwrap 0
+/early/filter/phase/min -180
+/early/filter/phase/max 180
+/early/filter/freq/min 20
+/early/filter/freq/max 22050
+/early/filter/freq/logscale 1
+/early/filter/magnitude/min -30
+/early/filter/magnitude/max 30
+/early/filter/magnitude/logscale 1
+/early/filter/xtick/visible 1
+/early/filter/xtick/color 0.501961 0.501961 0.501961 0.65098
+/early/filter/xtick/position "topandmiddle"
+/early/filter/ytick/visible 1
+/early/filter/ytick/color 0 0 0 1
+/early/filter/cursor/visible 0
+/early/filter/cursor/color 1 0 0 1
+/early/filter/background/color 0.858824 0.858824 0.858824 1
+/early/filter/frame/visible 0
+/early/filter/frame/color 0 0 0 1
+/early/filter/frame/rounded 5
+/early/filter/frame/thickness 2
+/early/filter/marker/number 0
+/cluster/filter/params -0.3 0 0 -20.6 250 4000
+/cluster/filter/bypass 0
+/cluster/filter/mute 0
+/cluster/filter/title/text "cluster"
+/cluster/filter/title/visible 1
+/cluster/filter/editable 1
+/cluster/filter/curve/number 1
+/cluster/filter/samplerate 44100
+/cluster/filter/curve/1/visible 1
+/cluster/filter/curve/1/foreground/color 0 0 1 0.498039
+/cluster/filter/curve/1/color 0 0 0 0.74902
+/cluster/filter/curve/1/fill 1
+/cluster/filter/curve/1/thickness 1
+/cluster/filter/mode "magnitude"
+/cluster/filter/font/size 10
+/cluster/filter/grid/visible 1
+/cluster/filter/grid/color 0.501961 0.501961 0.501961 1
+/cluster/filter/phase/unwrap 0
+/cluster/filter/phase/min -180
+/cluster/filter/phase/max 180
+/cluster/filter/freq/min 20
+/cluster/filter/freq/max 22050
+/cluster/filter/freq/logscale 1
+/cluster/filter/magnitude/min -30
+/cluster/filter/magnitude/max 30
+/cluster/filter/magnitude/logscale 1
+/cluster/filter/xtick/visible 1
+/cluster/filter/xtick/color 0.501961 0.501961 0.501961 0.65098
+/cluster/filter/xtick/position "topandmiddle"
+/cluster/filter/ytick/visible 1
+/cluster/filter/ytick/color 0 0 0 1
+/cluster/filter/cursor/visible 0
+/cluster/filter/cursor/color 1 0 0 1
+/cluster/filter/background/color 0.858824 0.858824 0.858824 1
+/cluster/filter/frame/visible 0
+/cluster/filter/frame/color 0 0 0 1
+/cluster/filter/frame/rounded 5
+/cluster/filter/frame/thickness 2
+/cluster/filter/marker/number 0
+/viewer/source/number 8
+/viewer/source/1/visible 1
+/viewer/source/1/editable 1
+/viewer/source/1/select 0
+/viewer/source/1/mute 0
+/viewer/source/1/aed -15.0579 0 0.5
+/viewer/source/1/constraint/circular 0
+/viewer/source/1/coordinates/visible 1
+/viewer/source/1/orientation/mode "default"
+/viewer/source/1/orientation 0 0 0 1
+/viewer/source/1/lookat/aed 90 0 0
+/viewer/source/1/proportion 100
+/viewer/source/1/color 0.490196 1 0 1
+/viewer/source/1/label "1"
+/viewer/source/1/label/visible 1
+/viewer/source/1/label/color 0 0 0 1
+/viewer/source/1/label/justification "centred"
+/viewer/source/1/vumeter/visible 0
+/viewer/source/1/vumeter/level -60
+/viewer/source/1/aperture 80
+/viewer/source/1/aperture/visible 0
+/viewer/source/1/aperture/color 1 1 1 1
+/viewer/source/1/radius 1
+/viewer/source/1/radius/visible 0
+/viewer/source/1/history/visible 0
+/viewer/source/1/history/size 100
+/viewer/source/1/history/color 0.490196 1 0 1
+/viewer/source/1/history/thickness 1
+/viewer/source/2/visible 1
+/viewer/source/2/editable 1
+/viewer/source/2/select 0
+/viewer/source/2/mute 0
+/viewer/source/2/aed 15.2694 0 0.5
+/viewer/source/2/constraint/circular 0
+/viewer/source/2/coordinates/visible 1
+/viewer/source/2/orientation/mode "default"
+/viewer/source/2/orientation 0 0 0 1
+/viewer/source/2/lookat/aed 90 0 0
+/viewer/source/2/proportion 100
+/viewer/source/2/color 0.490196 1 0 1
+/viewer/source/2/label "2"
+/viewer/source/2/label/visible 1
+/viewer/source/2/label/color 0 0 0 1
+/viewer/source/2/label/justification "centred"
+/viewer/source/2/vumeter/visible 0
+/viewer/source/2/vumeter/level -60
+/viewer/source/2/aperture 80
+/viewer/source/2/aperture/visible 0
+/viewer/source/2/aperture/color 1 1 1 1
+/viewer/source/2/radius 1
+/viewer/source/2/radius/visible 0
+/viewer/source/2/history/visible 0
+/viewer/source/2/history/size 100
+/viewer/source/2/history/color 0.490196 1 0 1
+/viewer/source/2/history/thickness 1
+/viewer/source/3/visible 1
+/viewer/source/3/editable 1
+/viewer/source/3/select 0
+/viewer/source/3/mute 0
+/viewer/source/3/aed -59 0 0.35
+/viewer/source/3/constraint/circular 0
+/viewer/source/3/coordinates/visible 1
+/viewer/source/3/orientation/mode "default"
+/viewer/source/3/orientation 0 0 0 1
+/viewer/source/3/lookat/aed 90 0 0
+/viewer/source/3/proportion 100
+/viewer/source/3/color 0.490196 1 0 1
+/viewer/source/3/label "3"
+/viewer/source/3/label/visible 1
+/viewer/source/3/label/color 0 0 0 1
+/viewer/source/3/label/justification "centred"
+/viewer/source/3/vumeter/visible 0
+/viewer/source/3/vumeter/level -60
+/viewer/source/3/aperture 80
+/viewer/source/3/aperture/visible 0
+/viewer/source/3/aperture/color 1 1 1 1
+/viewer/source/3/radius 1
+/viewer/source/3/radius/visible 0
+/viewer/source/3/history/visible 0
+/viewer/source/3/history/size 100
+/viewer/source/3/history/color 0.490196 1 0 1
+/viewer/source/3/history/thickness 1
+/viewer/source/4/visible 1
+/viewer/source/4/editable 1
+/viewer/source/4/select 0
+/viewer/source/4/mute 0
+/viewer/source/4/aed 59 0 0.35
+/viewer/source/4/constraint/circular 0
+/viewer/source/4/coordinates/visible 1
+/viewer/source/4/orientation/mode "default"
+/viewer/source/4/orientation 0 0 0 1
+/viewer/source/4/lookat/aed 90 0 0
+/viewer/source/4/proportion 100
+/viewer/source/4/color 0.490196 1 0 1
+/viewer/source/4/label "4"
+/viewer/source/4/label/visible 1
+/viewer/source/4/label/color 0 0 0 1
+/viewer/source/4/label/justification "centred"
+/viewer/source/4/vumeter/visible 0
+/viewer/source/4/vumeter/level -60
+/viewer/source/4/aperture 80
+/viewer/source/4/aperture/visible 0
+/viewer/source/4/aperture/color 1 1 1 1
+/viewer/source/4/radius 1
+/viewer/source/4/radius/visible 0
+/viewer/source/4/history/visible 0
+/viewer/source/4/history/size 100
+/viewer/source/4/history/color 0.490196 1 0 1
+/viewer/source/4/history/thickness 1
+/viewer/source/5/visible 1
+/viewer/source/5/editable 1
+/viewer/source/5/select 0
+/viewer/source/5/mute 0
+/viewer/source/5/aed -120.053 0 0.4
+/viewer/source/5/constraint/circular 0
+/viewer/source/5/coordinates/visible 1
+/viewer/source/5/orientation/mode "default"
+/viewer/source/5/orientation 0 0 0 1
+/viewer/source/5/lookat/aed 90 0 0
+/viewer/source/5/proportion 100
+/viewer/source/5/color 0.490196 1 0 1
+/viewer/source/5/label "5"
+/viewer/source/5/label/visible 1
+/viewer/source/5/label/color 0 0 0 1
+/viewer/source/5/label/justification "centred"
+/viewer/source/5/vumeter/visible 0
+/viewer/source/5/vumeter/level -60
+/viewer/source/5/aperture 80
+/viewer/source/5/aperture/visible 0
+/viewer/source/5/aperture/color 1 1 1 1
+/viewer/source/5/radius 1
+/viewer/source/5/radius/visible 0
+/viewer/source/5/history/visible 0
+/viewer/source/5/history/size 100
+/viewer/source/5/history/color 0.490196 1 0 1
+/viewer/source/5/history/thickness 1
+/viewer/source/6/visible 1
+/viewer/source/6/editable 1
+/viewer/source/6/select 0
+/viewer/source/6/mute 0
+/viewer/source/6/aed 120.613 0 0.4
+/viewer/source/6/constraint/circular 0
+/viewer/source/6/coordinates/visible 1
+/viewer/source/6/orientation/mode "default"
+/viewer/source/6/orientation 0 0 0 1
+/viewer/source/6/lookat/aed 90 0 0
+/viewer/source/6/proportion 100
+/viewer/source/6/color 0.490196 1 0 1
+/viewer/source/6/label "6"
+/viewer/source/6/label/visible 1
+/viewer/source/6/label/color 0 0 0 1
+/viewer/source/6/label/justification "centred"
+/viewer/source/6/vumeter/visible 0
+/viewer/source/6/vumeter/level -60
+/viewer/source/6/aperture 80
+/viewer/source/6/aperture/visible 0
+/viewer/source/6/aperture/color 1 1 1 1
+/viewer/source/6/radius 1
+/viewer/source/6/radius/visible 0
+/viewer/source/6/history/visible 0
+/viewer/source/6/history/size 100
+/viewer/source/6/history/color 0.490196 1 0 1
+/viewer/source/6/history/thickness 1
+/viewer/source/7/visible 1
+/viewer/source/7/editable 1
+/viewer/source/7/select 0
+/viewer/source/7/mute 0
+/viewer/source/7/aed -160.215 0 0.5
+/viewer/source/7/constraint/circular 0
+/viewer/source/7/coordinates/visible 1
+/viewer/source/7/orientation/mode "default"
+/viewer/source/7/orientation 0 0 0 1
+/viewer/source/7/lookat/aed 90 0 0
+/viewer/source/7/proportion 100
+/viewer/source/7/color 0.490196 1 0 1
+/viewer/source/7/label "7"
+/viewer/source/7/label/visible 1
+/viewer/source/7/label/color 0 0 0 1
+/viewer/source/7/label/justification "centred"
+/viewer/source/7/vumeter/visible 0
+/viewer/source/7/vumeter/level -60
+/viewer/source/7/aperture 80
+/viewer/source/7/aperture/visible 0
+/viewer/source/7/aperture/color 1 1 1 1
+/viewer/source/7/radius 1
+/viewer/source/7/radius/visible 0
+/viewer/source/7/history/visible 0
+/viewer/source/7/history/size 100
+/viewer/source/7/history/color 0.490196 1 0 1
+/viewer/source/7/history/thickness 1
+/viewer/source/8/visible 1
+/viewer/source/8/editable 1
+/viewer/source/8/select 0
+/viewer/source/8/mute 0
+/viewer/source/8/aed 160.721 0 0.5
+/viewer/source/8/constraint/circular 0
+/viewer/source/8/coordinates/visible 1
+/viewer/source/8/orientation/mode "default"
+/viewer/source/8/orientation 0 0 0 1
+/viewer/source/8/lookat/aed 90 0 0
+/viewer/source/8/proportion 100
+/viewer/source/8/color 0.490196 1 0 1
+/viewer/source/8/label "8"
+/viewer/source/8/label/visible 1
+/viewer/source/8/label/color 0 0 0 1
+/viewer/source/8/label/justification "centred"
+/viewer/source/8/vumeter/visible 0
+/viewer/source/8/vumeter/level -60
+/viewer/source/8/aperture 80
+/viewer/source/8/aperture/visible 0
+/viewer/source/8/aperture/color 1 1 1 1
+/viewer/source/8/radius 1
+/viewer/source/8/radius/visible 0
+/viewer/source/8/history/visible 0
+/viewer/source/8/history/size 100
+/viewer/source/8/history/color 0.490196 1 0 1
+/viewer/source/8/history/thickness 1
+/viewer/speaker/number 6
+/viewer/speakers/aed 0 0 1 60 0 1 120 0 1 -180 0 1 -120 0 1 -60 0 1
+/viewer/speaker/1/visible 1
+/viewer/speaker/1/editable 0
+/viewer/speaker/1/select 0
+/viewer/speaker/1/aed 0 0 1
+/viewer/speaker/1/constraint/circular 0
+/viewer/speaker/1/coordinates/visible 1
+/viewer/speaker/1/proportion 100
+/viewer/speaker/1/color 0 0 0 1
+/viewer/speaker/1/label "1"
+/viewer/speaker/1/label/visible 1
+/viewer/speaker/1/label/color 1 1 1 1
+/viewer/speaker/1/label/justification "centred"
+/viewer/speaker/1/vumeter/visible 0
+/viewer/speaker/1/vumeter/level -60
+/viewer/speaker/2/visible 1
+/viewer/speaker/2/editable 0
+/viewer/speaker/2/select 0
+/viewer/speaker/2/aed 60 0 1
+/viewer/speaker/2/constraint/circular 0
+/viewer/speaker/2/coordinates/visible 1
+/viewer/speaker/2/proportion 100
+/viewer/speaker/2/color 0 0 0 1
+/viewer/speaker/2/label "2"
+/viewer/speaker/2/label/visible 1
+/viewer/speaker/2/label/color 1 1 1 1
+/viewer/speaker/2/label/justification "centred"
+/viewer/speaker/2/vumeter/visible 0
+/viewer/speaker/2/vumeter/level -60
+/viewer/speaker/3/visible 1
+/viewer/speaker/3/editable 0
+/viewer/speaker/3/select 0
+/viewer/speaker/3/aed 120 0 1
+/viewer/speaker/3/constraint/circular 0
+/viewer/speaker/3/coordinates/visible 1
+/viewer/speaker/3/proportion 100
+/viewer/speaker/3/color 0 0 0 1
+/viewer/speaker/3/label "3"
+/viewer/speaker/3/label/visible 1
+/viewer/speaker/3/label/color 1 1 1 1
+/viewer/speaker/3/label/justification "centred"
+/viewer/speaker/3/vumeter/visible 0
+/viewer/speaker/3/vumeter/level -60
+/viewer/speaker/4/visible 1
+/viewer/speaker/4/editable 0
+/viewer/speaker/4/select 0
+/viewer/speaker/4/aed -180 0 1
+/viewer/speaker/4/constraint/circular 0
+/viewer/speaker/4/coordinates/visible 1
+/viewer/speaker/4/proportion 100
+/viewer/speaker/4/color 0 0 0 1
+/viewer/speaker/4/label "4"
+/viewer/speaker/4/label/visible 1
+/viewer/speaker/4/label/color 1 1 1 1
+/viewer/speaker/4/label/justification "centred"
+/viewer/speaker/4/vumeter/visible 0
+/viewer/speaker/4/vumeter/level -60
+/viewer/speaker/5/visible 1
+/viewer/speaker/5/editable 0
+/viewer/speaker/5/select 0
+/viewer/speaker/5/aed -120 0 1
+/viewer/speaker/5/constraint/circular 0
+/viewer/speaker/5/coordinates/visible 1
+/viewer/speaker/5/proportion 100
+/viewer/speaker/5/color 0 0 0 1
+/viewer/speaker/5/label "5"
+/viewer/speaker/5/label/visible 1
+/viewer/speaker/5/label/color 1 1 1 1
+/viewer/speaker/5/label/justification "centred"
+/viewer/speaker/5/vumeter/visible 0
+/viewer/speaker/5/vumeter/level -60
+/viewer/speaker/6/visible 1
+/viewer/speaker/6/editable 0
+/viewer/speaker/6/select 0
+/viewer/speaker/6/aed -60 0 1
+/viewer/speaker/6/constraint/circular 0
+/viewer/speaker/6/coordinates/visible 1
+/viewer/speaker/6/proportion 100
+/viewer/speaker/6/color 0 0 0 1
+/viewer/speaker/6/label "6"
+/viewer/speaker/6/label/visible 1
+/viewer/speaker/6/label/color 1 1 1 1
+/viewer/speaker/6/label/justification "centred"
+/viewer/speaker/6/vumeter/visible 0
+/viewer/speaker/6/vumeter/level -60
+/viewer/stereo/number 0
+/viewer/subwoofer/number 0
+/viewer/listener/visible 1
+/viewer/listener/editable 0
+/viewer/listener/select 0
+/viewer/listener/aed 90 0 0
+/viewer/listener/constraint/circular 0
+/viewer/listener/coordinates/visible 1
+/viewer/listener/orientation/mode "default"
+/viewer/listener/orientation 0 0 0 1
+/viewer/listener/lookat/aed 90 0 0
+/viewer/listener/proportion 100
+/viewer/listener/color 0 0 0 0
+/viewer/listener/headphones/visible 0
+/viewer/multi/number 0
+/viewer/microphone/number 0
+/viewer/eigenmike/number 0
+/viewer/format "aed"
+/viewer/background/color 0.709804 0.709804 0.709804 1
+/viewer/backgroundimage/file ""
+/viewer/backgroundimage/visible 1
+/viewer/backgroundimage/opacity 1
+/viewer/backgroundimage/scale 100
+/viewer/backgroundimage/angle 0
+/viewer/backgroundimage/offset/x 0
+/viewer/backgroundimage/offset/y 0
+/viewer/backgroundimage/quality "medium"
+/viewer/display/zoom 100
+/viewer/display/offset/x 0
+/viewer/display/offset/y 0
+/viewer/display/offset/z 0
+/viewer/display/zoom/lock 0
+/viewer/axis/visible 1
+/viewer/axis/label/visible 1
+/viewer/axis/origin/visible 1
+/viewer/axis/color 1 1 1 1
+/viewer/axis/thickness 2
+/viewer/grid/visible 1
+/viewer/grid/mode "circular"
+/viewer/grid/spacing 1
+/viewer/grid/line/number 5
+/viewer/grid/angulardivisions/number 16
+/viewer/grid/angulardivisions/visible 0
+/viewer/grid/dashed 0
+/viewer/grid/color 1 1 1 0.498039
+/viewer/grid/thickness 1
+/viewer/legend/visible 1
+/viewer/legend/color 1 1 1 1
+/viewer/legend/unit "meters"
+/viewer/emphasis/source 1
+/viewer/emphasis/speaker 0
+/viewer/emphasis/microphone 0
+/viewer/ruler/visible 0
+/viewer/ruler/color 1 1 1 1
+/viewer/hoa/number 0
+/viewer/anchor/number 0
+/viewer/phone/number 0
+/viewer/area/number 0
+/viewer/speakerhull/visible 0
+/viewer/speakerhull/color 0 0 0 1
+/viewer/speakerhull/fill 0
+/viewer/speakerhull/fill/color 0 0 0 0.298039
+/viewer/settings/visible 0
+/viewer/settings/editable 1
+/viewer/layout "leftright"
+/reverb/gain 0
+/reverb/tr0 0.5326
+/reverb/trl 1.01
+/reverb/trm 1
+/reverb/trh 0.5
+/reverb/fl 250
+/reverb/fh 8000
+/reverb/air/enable 1
+/reverb/air/freq 1852
+/reverb/infinite 0
+/reverb/roomsize 3695
+/early/min 34.7
+/early/max 49
+/early/distr 0.29
+/cluster/min 43.8
+/cluster/max 103.1
+/cluster/distr 0.53
+/reverb/min 96.1
+/reverb/density 0.94
+/reverb/roomoffset 0
+/window/title "Ircamverb"
+/window/visible 1
+/window/moveable 1
+/window/resizable 1
+/window/enable 1
+/window/bounds 705 -738 800 500
+/window/background/color 0.827451 0.827451 0.827451 1
+/window/opaque 1
+/window/titlebar 1
+/window/fullscreen 0
+/window/minimise 0
+/window/scale 100
+/window/rendering/engine "CoreGraphics Renderer"
+/window/rendering/fps/visible 0
+/window/floating 0
+/window/hidesondeactivate 0
+/window/buttons/close 1
+/window/buttons/minimise 1
+/window/buttons/maximise 1
