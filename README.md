@@ -5,4 +5,6 @@ Sound Example
 
 https://soundcloud.com/nicodaleman/etude-for-brainwaves
 
-![](spatializationpatch)
+
+<img src = "spatializationpatch.png" width= "500">
+
