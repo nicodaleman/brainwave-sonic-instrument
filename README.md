@@ -6,5 +6,5 @@ Sound Example
 https://soundcloud.com/nicodaleman/etude-for-brainwaves
 
 
-<img src = "spatializationpatch.png" width= "800">
+<img src = "spatializationpatch.png" width= "1000">
 
