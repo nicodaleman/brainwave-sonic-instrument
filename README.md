@@ -10,7 +10,7 @@ https://soundcloud.com/nicodaleman/etude-for-brainwaves
 
 ## Gui Example
 
-<img src = BrainwavGui.png" width= "1000">
+<img src = BrainwaveGui.png" width= "1000">
 
 ## Code snippet
 
