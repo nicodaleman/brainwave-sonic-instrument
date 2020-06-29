@@ -1,8 +1,8 @@
+(
 ServerOptions.devices;
 s.boot;
 
 
-(
 s = Server.local;
 //s.options.inDevice_("JackRouter");
 s.options.outDevice_("Soundflower (64ch)");
@@ -13,7 +13,7 @@ s.newBusAllocators;
 
 ////////MIDI Init
 
-thisProcess.interpreter.executeFile(thisProcess.nowExecutingPath.dirname +/+"LaunchControlSCtest.scd");
+thisProcess.interpreter.executeFile(thisProcess.nowExecutingPath.dirname +/+"LaunchControlSC.scd");
 
 /////osc communication with panoramix////////////////
 b = NetAddr.new("127.0.0.1", 4002);
@@ -138,40 +138,40 @@ b = NetAddr.new("127.0.0.1", 4002);
 }).add;
 
 
-/////// defiine freq variables///////
+/////// define freq variables///////
 
 ~timedelta=0.5;
 
-~freq1 = ~theta1.normalize(60,100);
-~pan1 =~theta1.normalize(-180, 180);
+~freq1 = ~theta1.normalize(62,125);
+~pan1 =~theta1.normalize(0, 0.1);
 ~gate1 =~theta1.normalize(0, 1);
 
-~freq2 = ~theta2.normalize(60, 100);
-~pan2 =~theta2.normalize(0, 0.5);
+~freq2 = ~theta2.normalize(62, 125);
+~pan2 =~theta2.normalize(0, 0.1);
 ~gate2 =~theta2.normalize(0, 1);
 
-~freq3 = ~alpha1.normalize(100, 250);
-~pan3 =~alpha1.normalize(-180, 180);
+~freq3 = ~alpha1.normalize(125, 250);
+~pan3 =~alpha1.normalize(0, 0.1);
 ~gate3 =~alpha1.normalize(0, 1);
 
-~freq4 = ~alpha2.normalize(100, 250);
-~pan4 =~alpha2.normalize(0, 0.5);
+~freq4 = ~alpha2.normalize(125, 250);
+~pan4 =~alpha2.normalize(0, 0.1);
 ~gate4 =~alpha2.normalize(0, 1);
 
 ~freq5 = ~lobeta1.normalize(250, 500);
-~pan5 =~lobeta1.normalize(-180, 180);
+~pan5 =~lobeta1.normalize(0, 0.1);
 ~gate5 =~lobeta1.normalize(0, 1);
 
 ~freq6 = ~lobeta2.normalize(250, 500);
-~pan6 =~lobeta2.normalize(-0.5, 0.5);
+~pan6 =~lobeta2.normalize(0, 0.1);
 ~gate6 =~lobeta2.normalize(0, 1);
 
-~freq7 = ~beta1.normalize(500, 800);
-~pan7 =~beta1.normalize(-180, 180);
+~freq7 = ~beta1.normalize(500, 1000);
+~pan7 =~beta1.normalize(0, 0.1);
 ~gate7 =~beta1.normalize(0, 1);
 
-~freq8 = ~beta2.normalize(500, 800);
-~pan8 =~beta2.normalize(-0.5, 0.5);
+~freq8 = ~beta2.normalize(500, 1000);
+~pan8 =~beta2.normalize(0, 0.1);
 ~gate8 =~beta2.normalize(0, 1);
 
 
@@ -278,5 +278,5 @@ Tdef(\sonification).remove;
 s.plotTree;
 s.meter;
 //~data.plot;
-~data[1,2,3,4,5,6,7,8].plot(numChannels: 8);
+~data[1].plot(numChannels: 1);
 )

@@ -1,20 +1,3 @@
-# brainwave-sonic-instrument
-Repository for the Brainwave Sonification Project
-
-Sound Example
-
-https://soundcloud.com/nicodaleman/etude-for-brainwaves
-
-
-<img src = "spatializationpatch.png" width= "1000">
-
-## Gui Example
-
-<img src = BrainwavGui.png" width= "1000">
-
-## Code snippet
-
-```
 //1. Init and read data
 
 (
@@ -53,10 +36,11 @@ s.newBusAllocators;
 		sig = PMOsc.ar(carfreq, modfreq, pmindex);
 		sig = sig * amp.lag(0.2);
 		sig = Pan2.ar(sig, pan);
-		Out.ar(i, sig);//*AmpCompA.ir(freq));
+		Out.ar(0, sig);//*AmpCompA.ir(freq));
 	}).add;
 });
 
+//~synths[1].name;
 
 //////////////////////// Sonification task//////////////////////
 
@@ -98,10 +82,14 @@ s.newBusAllocators;
 Window.closeAll;
 w = Window.new("Launch Control XL", Rect (600, 600, 1220,1000));
 z = CompositeView(w, Rect(700,30,500,800)).front;
-
+//c = CompositeView(w, Rect(600, 600, 600, 600)).background_(Color.grey.alpha_(0.3));
+//c.decorator = FlowLayout(c.bounds);
 z.addFlowLayout(20@20, 30@10);  //margin, separation
 
+
+
 ~name =["Theta1", "Theta2", "Alpha1", "Alpha2", "LoBeta1", "LoBeta2", "HiBeta1", "HiBeta2"];
+
 
 ~sndA= Array.fill(8,  {
 	arg i;
@@ -151,8 +139,8 @@ w.onClose_({Tdef(\sonification).clear});
 ~plotterA = Plotter("PlotterA",Rect(0,10,640,640),~brainwaveView);
 ~userView = UserView(~brainwaveView, 630@660) // create the UserView
 .background_(Color.white.alpha(0.1))  // set background color
-.animate_(true)  // start animation !
-.frameRate_(2)  // set frameRate to 60 frames per second
+.animate_(false)  // start animation !
+.frameRate_(60)  // set frameRate to 60 frames per second
 .drawFunc_({   // callback drawing function
 	var counter = ~userView.frame; // count the number of frames
 	var y = 100; // no change in the horizontal axis
@@ -172,4 +160,9 @@ Pen.stroke;});
 \gridColorY, Color.red);
 
 )
-```
+
+
+
+
+
+
